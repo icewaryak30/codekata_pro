@@ -1,9 +1,11 @@
 #ICE
-n,k=map(int,input().split())
-l=list(map(int,input().split()))
-d=0
-for i in l:
-	if i<=(5-k):
-		d+=1
-g=d//3
-print(g)
+s="dhoni"
+m=input()
+c=0
+for i in m:
+    if m.count(i)==s.count(i):
+                c+=1
+if c==len(m):
+    print("yes")
+else:
+    print("no")
